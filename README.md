@@ -9,6 +9,10 @@ See it working by accessing (with default settings):
 - http://localhost:7070/Dossier.pdf to see it load a binary actually a PDF
 - http://localhost:7070/foobar.json to load a plain text file
 - Run org.mbachran.server.custom.ServerTests
+- Build Javadocs: gradlew javadoc and access them via file:///<project path>/build/docs/javadoc/index.html.
+- If you copy <project path>\build\docs\javadoc over to <project path>\out\production\resources\static\javadoc you can view the Javadocs
+within the Webserver itself: http://localhost:7070/javadoc/index.html
+
 
 Code was written with Java 11.
 
