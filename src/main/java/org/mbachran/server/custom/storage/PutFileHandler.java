@@ -12,8 +12,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Nonnull;
 import java.io.IOException;
 import java.net.URI;
-import java.nio.charset.StandardCharsets;
-
+ 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 /**

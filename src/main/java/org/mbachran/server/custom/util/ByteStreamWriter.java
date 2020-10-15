@@ -5,9 +5,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.util.Objects;
-
+ 
 /**
  * Wrapper around a {@link ByteArrayOutputStream} to ease up some writing to it.
  */

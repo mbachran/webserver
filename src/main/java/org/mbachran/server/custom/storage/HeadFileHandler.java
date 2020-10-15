@@ -11,8 +11,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;
-import java.net.URI;
-
+ 
 /**
  * Configured in (application.config.custom-server.spi.handler.head) handler for HEAD requests.
  * Uses {@link FilePersistence} as simple storage.
